@@ -1,6 +1,8 @@
 # SI507final
 This is my final project for SI507, and intermediate programming course at the University of Michigan. 
 
+It can supply nearby restaurants and rent prices for a given address and plot the relationship between distance to restaurants and rent prices.
+
 This tool works through the command line (and via Plotly graphs that display in a browser). 
 
 It requires plotly and the native Python modules requests, json, and time. It also requires a secrets.py file that includes access keys for Yelp's Fusion API and the US Census Bureau's APIs, stored as yelp_key and census_key respectively. 
