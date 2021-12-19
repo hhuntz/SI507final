@@ -42,7 +42,7 @@ def rent_prices():
     if rent != 'unknown':
         print(f'${rent}/month.')
     else:
-        print('f{rent}')
+        print(f'{rent}')
 
     sleep(10)
 
